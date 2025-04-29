@@ -33,7 +33,7 @@ Alternatively, you can provide command-line arguments directly:
 - SVG dependencies: The simulation uses hand-drawn SVG images. Ensure svgpath2mpl and svgpathtools are installed and critters folder located correctly
 
 ## Credits
-Created by Saf Flatters
+Created by Saf Flatters  
 Artwork and SVG illustrations drawn by myself specifically for this project.
 
 ## Connect with Me
