@@ -14,18 +14,19 @@ Eden Simulation is a dynamic garden ecosystem simulator where ants, butterflies,
 - Custom Visualisation: Animated matplotlib plots with custom SVG markers (svgpath2mpl, svgpathtools).
 - Data-Driven Initialisation: Loaded world background and initial animal states from .csv files for flexible scenario setup.
 - Robust User Input: Supported command-line arguments and validated interactive prompts for simulation configuration.
-- Error Handling included
+- Exception Handling included
 
 ## Dependencies
 Python 3.11+, matplotlib, numpy, svgpath2mpl, svgpathtools, random, sys
 
 ## How to Run
+`pip install -r requirements.txt`  
 `python playEden.py`
 You will be prompted to:
 1. Enter the number of timesteps
 2. Choose Day (D) or Night (N) mode
 
-Alternatively, you can provide command-line arguments directly:
+Alternatively, you can provide command-line arguments directly:  
 `python playEden.py 100 D`  (100 timesteps, Day mode)
 
 
